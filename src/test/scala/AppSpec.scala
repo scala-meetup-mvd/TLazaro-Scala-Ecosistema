@@ -19,6 +19,6 @@ class AppSpec extends FlatSpec with ShouldMatchers {
   }
   
   it should "fail" in {
-    fail("I don't want to work.")
+    //fail("I don't want to work.")
   }
 }

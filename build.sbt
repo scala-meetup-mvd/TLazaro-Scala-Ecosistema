@@ -1,3 +1,5 @@
+import AssemblyKeys._
+
 name := "Basic Project"
 
 organization := "com.example"
@@ -10,4 +12,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 )
 
-initialCommands := "import com.example.basicproject._"
+initialCommands := "import com.example._"
+
+assemblySettings
